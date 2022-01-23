@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%;
 }
 
 .header_logo {
@@ -53,8 +54,7 @@
 }
 
 .header_basketCount {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 5px;
 }
 
 .header_nav {
@@ -69,4 +69,9 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+}
+
+.header_link{
+    color: white;
+    text-decoration: none;
 }
